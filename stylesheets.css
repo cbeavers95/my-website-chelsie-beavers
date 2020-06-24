@@ -410,6 +410,9 @@ p, ul, ol {
         float: none;
     }
 
+    .banner-section {
+        display: none;
+    }
 
     .design-image {
         width: 100%;
@@ -446,10 +449,6 @@ p, ul, ol {
     .in-project-image {
         width: 50%;
         height: 50%;
-    }
-
-    .banner-section {
-        display: none;
     }
 
 }
