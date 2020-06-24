@@ -331,6 +331,9 @@ p, ul, ol {
 .walkthrough-video {
     width: 80%;
     height: 80%;
+    border-style: solid;
+    border-width: thick;
+    border-color: #000;
 }
 
 
