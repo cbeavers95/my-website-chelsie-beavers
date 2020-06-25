@@ -17,7 +17,6 @@ p, ul, ol {
 
 
 
-
 .body {
     font-family: serif;
 }
@@ -402,7 +401,9 @@ p, ul, ol {
 
 @media screen and (max-width: 900px) {
     /* Add media query for the width of walkthrough-video to be 100 with a small screen  */
-
+    .welcome {
+        background-image: url("images/background2.png");
+    }
     .profile-image {
         margin-left: auto;
         margin-right: auto;
