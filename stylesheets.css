@@ -88,14 +88,14 @@ p, ul, ol {
     font-size: 3rem;
 }
 
-/* .decor-title {
-    text-shadow: 0.5rem 0.5rem 2rem blue, 0 0 2rem blue, 0 0 2rem purple;
-    color: #f4f4f4;
-} */
 
 .decor-title {
-    text-shadow: 0.5rem 0.5rem 2rem black, 0 0 2rem gray, 0 0 2rem black;
-    color: #f4f4f4;
+    /* text-shadow: 0.5rem 0.5rem 2rem black, 0 0 2rem gray, 0 0 2rem black;
+    color: #f4f4f4; */
+    font-family: 'Leckerli One', cursive;
+    color: #000;
+    font-size: 3.5rem;
+    text-decoration: underline;
 }
 
 .project-tag {
@@ -128,7 +128,7 @@ p, ul, ol {
 } */
 
 .project-image:hover {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .other-projects-section {
@@ -165,6 +165,7 @@ p, ul, ol {
     margin-right:20%;
     text-align: center;
     padding-bottom: 15%;
+    background-image: url("images/background.png");
     /* background-color: #ededed; */
     background-color: #f7f7f7;
     /* background-color: #ddf3f5; */
