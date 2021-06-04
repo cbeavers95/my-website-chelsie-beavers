@@ -1,0 +1,222 @@
+html {
+  font-family: sans-serif;
+  background-color: #ffff;
+  color: #000;
+}
+
+/* body {
+  margin-left: 10%;
+  margin-right: 10%;
+} */
+
+p {
+  font-size: 1rem;
+}
+
+nav {
+  padding-top: 1%;
+  padding-bottom: 3%;
+  text-align: right;
+  margin-right: 1rem;
+}
+
+
+nav ul li, nav ul li a {
+  display: inline-block;
+  margin-left: 0.5rem;
+  color: #000;
+}
+ a {
+   text-decoration: none;
+ }
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+h6 {
+  font-size: 1.05rem;
+  margin-bottom: 0;
+  margin-top: 1%;
+}
+
+footer {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #ededed;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+
+/* All pages */
+.center-contents {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+}
+
+/* Projects Page */
+.portfolio-intro {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.portfolio-intro h3{
+  margin-top: 0;
+}
+
+.portfolio-intro h1 {
+  margin-bottom: 1%;
+}
+
+.project-thumbnails {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-thumbnails div {
+  flex-direction: column;
+}
+
+.project-thumbnails div a img {
+  margin-bottom: 5%;
+}
+
+ .display-column {
+  flex-direction: column;
+}
+
+/* About Page  */
+.biography-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.biography-content div {
+  flex-direction: column;
+}
+
+.biography-description {
+  margin-right: 5%;
+}
+
+.academic-color, footer p a {
+  color: #800000;
+}
+
+/* All Project Pages  */
+.project-introduction {
+  display: flex;
+  margin-bottom: 5%;
+  flex-direction: row;
+}
+
+.project-introduction div {
+  flex-direction: column;
+}
+
+.project-introduction-description {
+  margin-right: 2%;
+}
+
+.project-section-display-flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.project-section-images-flex-direction {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-section-images-flex-direction img{
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+
+
+/* YouTube App Page */
+.align-image{
+  display: block;
+  /* margin-right: auto;
+  margin-left: auto; */
+  margin-bottom: 3%;
+}
+
+
+/* tablet */
+/* @media (min-width: 600px) and (max-width: 900px) { */
+@media (max-width: 900px) {
+  nav ul li {
+    display: block;
+    margin-bottom: 2%;
+  }
+  
+  /* Projects page */
+  .display-column {
+    flex-direction: row;
+  }
+ .project-thumbnails div a img {
+   margin-right: 5%;
+ }
+
+ .project-thumbnails div{
+   flex-direction: row;
+ }
+
+ .thumbnail{
+   width: 100%;
+ }
+  /* All Projects */
+  .image-size-reduce {
+    width: 100%;
+  }
+
+  /* About */
+  .biography-content {
+    flex-direction: column;
+  }
+  .biography-description {
+    margin-right: 0;
+    margin-bottom: 5%;
+  }
+  .project-introduction {
+    flex-direction: column;
+  }
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  /* Projects page */
+  .thumbnail {
+    width: 100%;
+  }
+
+  .portfolio-intro {
+    margin-bottom: 5%;
+  }
+
+  .project-section-display-flex {
+    flex-direction: column;
+  }
+
+  /* All Projects */
+
+
+}
