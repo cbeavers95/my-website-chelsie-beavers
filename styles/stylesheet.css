@@ -173,6 +173,13 @@ footer p {
   color: #E5173F;
 }
 
+.none-bottom-margin {
+  margin-bottom: 0;
+}
+
+.none-top-margin {
+  margin-top: 0.25rem;
+}
 
 /* tablet */
 /* @media (min-width: 600px) and (max-width: 900px) { */
@@ -213,6 +220,14 @@ footer p {
   .project-introduction {
     flex-direction: column;
   }
+
+   /* Chick-fil-A Intern Page */
+   .chick-fil-a-logo-size{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* mobile */
@@ -228,6 +243,11 @@ footer p {
 
   .project-section-display-flex {
     flex-direction: column;
+  }
+
+  /* Chick-fil-A Intern Page */
+  .chick-fil-a-logo-size{
+    width: 100%;
   }
 
   /* All Projects */
